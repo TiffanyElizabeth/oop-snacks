@@ -11,5 +11,11 @@ public class Main {
         test2.deposit(100);
         test2.withdraw(25);
         System.out.println(test2.getAccountBalance());
+
+        RegistroStudenti testRegister = new RegistroStudenti();
+
+        testRegister.addStudent(test);
+
+        testRegister.printArray();
     }
 }
