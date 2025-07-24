@@ -10,5 +10,8 @@ public class Main {
 
         test.sale(4);
         System.out.println(test);
+
+        Libreria testBookshop = new Libreria();
+        System.out.println(testBookshop);
     }
 }
